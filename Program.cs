@@ -3,7 +3,8 @@
 
 int[] GenerateRandomArray(int size, int start, int end)
             {
-                int[] RandomArray = new int[size];
+                int[] RandomArray = new int[4];
+                
                 for (int i = 0; i < size; i++)
                 {
                     RandomArray[i] = new Random().Next(start, end + 1);
